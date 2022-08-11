@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+:root {
+    --white: #FFF;
+    --whitesmoke: #F9F9F9;
+    --light-grey: #ECECEC;
+    --grey: #C4C4C4;
+    --medium-grey: #A7A7A7;
+    --deep-grey: #343434;
+    --black: #000000;
+    --blue: #1B77F3;
+    --red: #CF3C3F;
+  }
+
+body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../css/img/arcane.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+}
+div.logo{
+    position: relative;
+    top: -10px;
+    left: 40px;
+}
+section{
+    
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+section div.conteiner{
+    position: relative;
+    margin-top: -35px;
+    width: 461px;
+    height: 612px;
+    padding: 50px;
+    background-color: #FFF;
+    
+    
+}
+div.conteiner p{
+    margin-left: 90px;
+    margin-top: 24px;
+    font-size: 26px;
+    font-weight:500;
+    color: #343434;
+    margin-bottom: 69px;
+}
+
+
+div.conteiner label.label-login{
+    display: block;
+    margin: 10px;
+    width: 100%;
+    margin-top: 70px;
+}
+
+
+div.conteiner label.label-login input{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #ECECEC;
+    color:#343434;
+    padding: 25px 10px 10px;
+    margin-left: -8px;
+    justify-content: center;
+    
+    
+}
+div.conteiner label.label-login span{
+    position: absolute;
+    font-size: 0.8em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #5d5555;
+    margin: 20px;
+    cursor: text;
+    transition: all 0.2ms;
+    
+}
+div.conteiner label.label-login{
+    display: block;
+    margin: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+div.conteiner label.label-login input{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #ECECEC;
+    color:#343434;
+    padding: 25px 10px 10px;
+    margin-left: -8px;
+    justify-content: center;
+}
+div.conteiner label.label-login input:focus{
+    background-color: #ffffff;
+    border: 2px solid #343434;
+    text-transform: none;
+}
+
+
+div.conteiner label.label-login span{
+    position: absolute;
+    left: 50px;
+    font-size: 0.8em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #5d5555;
+    margin: 20px;
+    cursor: text;
+    transition: all 300ms ease;
+}
+div.conteiner label.label-login input:focus{
+    background-color: #ffffff;
+    border: 2px solid #343434;
+}
+
+div.conteiner label.label-login .span-active{
+    position: absolute;
+    font-size: 0.7em;
+    margin: 8px 10px;
+}
+div.login-social{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+div.login-social img{
+    width: 20px;
+    height: auto;
+}
+.icon-button{
+    width: 33.3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+div.login-social button.icon-button:nth-child(1){
+    background-color: rgb(24, 119, 242);
+}
+div.login-social button.icon-button:nth-child(2){
+    background-color: rgb(255,255,255)
+}
+div.login-social button.icon-button:nth-child(3){
+    background-color: rgba(0,0,0);
+}
+
+div.label-login-chexbox{
+    margin-top: 20px;
+    width: 100%;
+    font-size: 0.9em;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    
+}
+div.label-login-chexbox input.login--checkbox{
+    appearance:none;
+    width: 20px;
+    height: 20px;
+    background-color: #A7A7A7;
+    margin-right: 7px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+div.label-login-chexbox input.login--checkbox:checked{
+    background-color: #00c2e0;
+}
+div.label-login-chexbox input.login--checkbox:checked::after{
+    content: "";
+    color: #fff;
+    display: block;
+    width: 4px;
+    height: 8px;
+    border: 3px solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    margin: 2px 6px;
+}
+
+
+
+button.arrow{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    left: 130px;
+    border: none;
+    background-color: #FFF;
+    top: 30px;
+}
+    
+
+button.arrow svg.svg{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    background-color: #00c2e0;
+    border-radius: 22px;
+    left: 13px;
+    fill: #fff;
+    cursor: pointer;
+}
+
+section nav.msg-bottom{
+    position: relative;
+    font-size: 12px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center; 
+    top: -70px;
+}
+
+nav a.login_link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(102, 102, 102);
+    font-weight: 600;
+    
+}
+nav a.login_link:hover{
+    transition: 0.5ms;
+    color: #111;
+   
+}
+nav a#a-link{
+    margin-top: 10px;
+}
+
+button.arrow:disabled svg.svg{
+    fill: #ECECEC;
+    background-color: #343434;
+    
+}
+
+
+
