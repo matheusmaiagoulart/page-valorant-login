@@ -22,7 +22,7 @@ body{
     position: relative;
     display: flex;
     flex-direction: column;
-    background-image: url(../css/img/arcane.jpg.jpg);
+    background-image: url(../CSS/img/arcane.jpg.jpg);
     background-size: cover;
     background-position: center;
     overflow-x: hidden;
